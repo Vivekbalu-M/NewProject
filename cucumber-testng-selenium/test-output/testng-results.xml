@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="8216" started-at="2021-09-15T19:37:56Z" finished-at="2021-09-15T19:38:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="WIN10TEST" duration-ms="8216" started-at="2021-09-15T19:37:56Z" finished-at="2021-09-15T19:38:04Z">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="setUpCucumber()[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="setUpCucumber" is-config="true" duration-ms="227" started-at="2021-09-15T19:37:56Z" finished-at="2021-09-15T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpCucumber -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="setUpClass" is-config="true" duration-ms="2671" started-at="2021-09-15T19:37:56Z" finished-at="2021-09-15T19:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="feature" duration-ms="2181" started-at="2021-09-15T19:37:59Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-15T19:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add new item to ToDO list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="setUpClass" is-config="true" duration-ms="1600" started-at="2021-09-15T19:38:01Z" finished-at="2021-09-15T19:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="feature" duration-ms="1428" started-at="2021-09-15T19:38:02Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-15T19:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add new item to ToDO list 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@31a5c39e]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2021-09-15T19:38:04Z" finished-at="2021-09-15T19:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- WIN10TEST -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
